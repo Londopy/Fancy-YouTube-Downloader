@@ -5,7 +5,7 @@ This Python code creates a GUI program that allows users to search and download 
 
 ## Getting Started!
 
-![image](https://user-images.githubusercontent.com/109172537/236691421-9c8fb8ba-8379-43a1-8a78-a3e3bcbfe82b.png)
+![236691421-9c8fb8ba-8379-43a1-8a78-a3e3bcbfe82b](https://user-images.githubusercontent.com/109172537/236692013-b9bd6185-c50a-444f-8c74-262e823d8b0d.jpg)
 
 #### Find a YouTube video, copy then link, paste it in, choose between .mp4 & .mp3 and you're done!
 #### Or search for a video, in the program! Click the thumbnail and wow you're done!
