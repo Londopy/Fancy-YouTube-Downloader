@@ -11,9 +11,17 @@ This Python code creates a GUI program that allows users to search and download 
 #### Or search for a video, in the program! Click the thumbnail and wow you're done!
 
 ---
+
+## Status:
+
+### Looking at around 90% completed
+
+---
+
 ### Credit where credit is due:
 
 #### Heavy design inspiration from [@nikita9604](https://github.com/nikita9604)
+
 ---
 
 ### Contact:
