@@ -14,7 +14,7 @@ This Python code creates a GUI program that allows users to search and download 
 
 ## Status:
 
-### Looking at around 90% completed
+### Looking at around 90% complete
 
 ---
 
