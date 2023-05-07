@@ -31,9 +31,9 @@ This Python code creates a GUI program that allows users to search and download 
 ---
 
 ![Relese](https://img.shields.io/github/v/release/Londopy/Fancy-YouTube-Downloader) 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Londopy/Fancy-YouTube-Downloader/blob/main/LICENSE) 
 ![Size](https://img.shields.io/github/languages/code-size/Londopy/Fancy-YouTube-Downloader) 
 ![Files](https://img.shields.io/github/directory-file-count/Londopy/Fancy-YouTube-Downloader) 
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Londopy/Fancy-YouTube-Downloader/blob/main/LICENSE) 
 ![Lines](https://img.shields.io/tokei/lines/github/Londopy/Fancy-YouTube-Downloader) 
 ![Deps](https://img.shields.io/hackage-deps/v/cond) 
 ![Issues](https://img.shields.io/github/issues/Londopy/Fancy-YouTube-Downloader) 
