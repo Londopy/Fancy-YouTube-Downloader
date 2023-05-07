@@ -11,12 +11,12 @@ This Python code creates a GUI program that allows users to search and download 
 #### Or search for a video, in the program! Click the thumbnail and wow you're done!
 
 ---
-### Credit where credit is due
+### Credit where credit is due:
 
 #### Heavy design inspiration from [@nikita9604](https://github.com/nikita9604)
 ---
 
-### Contact
+### Contact:
 
 #### :mailbox: How to reach me: <img src="https://user-images.githubusercontent.com/109172537/209095400-8f9c465d-914b-4303-919e-4f449469b223.png" width="20"> ChezLondo#3468
 
