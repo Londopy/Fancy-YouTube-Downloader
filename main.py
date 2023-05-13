@@ -31,40 +31,6 @@ def run_as_admin():
 		sys.exit()
 
 
-"""
-def play_video(downloaded_file):
-	# Play the video in a new window.
-	player_window = tk.Toplevel(root)
-	player_window.geometry('640x360')
-	player_window.title('Video Preview')
-
-	# Create a video player using OpenCV
-	import cv2
-	cap = cv2.VideoCapture(downloaded_file)
-
-	# Define the function to update the video frame
-	def update_frame():
-		ret, frame = cap.read()
-		if ret:
-			frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-			frame_image = Image.fromarray(frame)
-			frame_tk = ImageTk.PhotoImage(frame_image)
-			player_canvas.create_image(0, 0, anchor=NW, image=frame_tk)
-			player_canvas.image = frame_tk
-			player_canvas.after(10, update_frame)
-		else:
-			cap.release()
-
-	# Create a canvas to hold the video frame
-	player_canvas = Canvas(player_window, width=640, height=360, bg='black')
-	player_canvas.pack()
-
-	# Start playing the video
-	update_frame()
-"""
-
-
-
 def update_video_list():
 	search_term = search_entry.get()
 	search_results = Search(search_term).results[:10]
@@ -222,19 +188,6 @@ def create_video_window(search_results):
 		title_label.pack()
 
 
-"""
-def youtube_search(query):
-	youtube = build('youtube', 'v3', developerKey='AIzaSyD9w-gPF5uKf8JUSmLSm4jRfo04NMiI-oU')
-	request = youtube.search().list(
-		part='id,snippet',
-		q=query,
-		type='video',
-		maxResults=12
-	)
-	response = request.execute()
-	return response['items']
-"""
-
 def download_video():
 	url = entry.get()
 #	option = video_option.get()
@@ -295,9 +248,6 @@ folder_path = StringVar()
 message = tk.Label(root,  text = "Youtube downloader!", bg="#137a7f",
 			fg="#373b3e", height=2, width=int(root.winfo_screenwidth()/2), font=('times', 30, 'italic bold ')).pack()
 
-#Notification = tk.Label(root, text="Video Downloaded Successfully", bg="lime green", fg="white", width=int(root.winfo_screenwidth()/2),
-#				   height=2, font=('times', 18, 'bold'))
-
 search_entry_label = tk.Label(root, text="Search Vid : ", width=10, height=2, fg="black", bg="#bec8d1", font=('times', 15, ' bold '))
 search_entry_label.place(x=20, y=150)
 
@@ -347,15 +297,6 @@ om1.place(x=600, y=275)
 file_path_button = tk.Button(root, text="Browse", command=browse_file_path,fg='black'  ,bg="#86cecb"  ,width=11 ,height=1 , activebackground = "Red" ,font=('times', 15, ' bold '))
 file_path_button.place(x=600, y=395)
 
-
-#video_option = tk.StringVar(value="Video")
-
-#video_radio_button = tk.Radiobutton(root, text="Video", variable=video_option, value="Video")
-#video_radio_button.pack()
-
-#audio_radio_button = tk.Radiobutton(root, text="Audio", variable=video_option, value="Audio")
-#audio_radio_button.pack()
-
 clearButton = tk.Button(root, text="Clear",command=clear,fg="black" ,bg="dark turquoise" ,width=10 ,height=2 , activebackground = "Red" ,font=('times', 15, ' bold '))
 clearButton.place(x=180, y=470)
 
@@ -369,30 +310,5 @@ download_label.pack()
 message = tk.Label(root,  text = "Made by Londø!", bg="#137a7f",
 			fg="#373b3e", height=2, width=int(root.winfo_screenwidth()/2), font=('times', 30, 'italic bold ')).pack(side = BOTTOM)
 
-"""
-def get_auth_link():
-	result = subprocess.run(['your_command'], capture_output=True, text=True)
-	output = result.stdout
-	
-	link_pattern = re.compile(r'Authorization URL:\s+(.*)\n')
-	code_pattern = re.compile(r'Enter the authorization code:\s+([\w-]+)')
-	
-	link_match = link_pattern.search(output)
-	code_match = code_pattern.search(output)
-	
-	link = link_match.group(1)
-	code = code_match.group(1)
-	
-	textbox = tk.Text(root)
-	textbox.pack()
-	
-	textbox.insert(tk.END, f"Link: {link}\n")
-	textbox.insert(tk.END, f"Code: {code}\n")
-
-auth_button = tk.Button(root, text="Get Auth Link", command=get_auth_link)
-auth_button.pack()
-
-root.mainloop()
-"""
 
 root.mainloop()
