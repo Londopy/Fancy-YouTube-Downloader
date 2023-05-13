@@ -127,10 +127,6 @@ def load_more_videos(canvas, video_frame, search_term):
 		title_label = Label(video_frame, text=video.title, font=('times', 12, 'bold'))
 		title_label.grid(row=current_videos+i, column=1)
 
-#		# create video button
-#		download_button = Button(video_frame, text="Download", font=('times', 12, 'bold'), command=lambda v=video: download_video_from_result(v))
-#		download_button.grid(row=current_videos+i, column=3)
-
 	# update current_videos
 	current_videos += len(search_results)
 
