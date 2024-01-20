@@ -5,28 +5,35 @@ This Python code creates a GUI program that allows users to search and download 
 
 ## Getting Started!
 
+### Get an API Key
+#### Go to 'https://developers.google.com/youtube/v3' and get your api key. 
+#### Copy & Paste the key into 'API_KEY' - line 142
+### Note the key is already in the code in the exe provided @'Releases'
+
+---
+
 ![236691421-9c8fb8ba-8379-43a1-8a78-a3e3bcbfe82b](https://user-images.githubusercontent.com/109172537/236692013-b9bd6185-c50a-444f-8c74-262e823d8b0d.jpg)
 
-#### Find a YouTube video, copy then link, paste it in, choose between .mp4 & .mp3 and you're done!
-#### Or search for a video, in the program! Click the thumbnail and wow you're done!
+### Find a YouTube video, copy then link, paste it in, choose between .mp4 & .mp3 and you're done!
+### Or search for a video, in the program! Click the thumbnail and wow you're done!
 
 ---
 
-## Status:
+# Status:
 
-### Looking at around 90% complete
-
----
-
-### Credit where credit is due:
-
-#### Heavy design inspiration from [@nikita9604](https://github.com/nikita9604)
+## Looking at around 90% complete
 
 ---
 
-### Contact:
+## Credit where credit is due:
 
-#### :mailbox: How to reach me: <img src="https://user-images.githubusercontent.com/109172537/209095400-8f9c465d-914b-4303-919e-4f449469b223.png" width="20"> ChezLondo#3468
+### Heavy design inspiration from [@nikita9604](https://github.com/nikita9604)
+
+---
+
+## Contact:
+
+### :mailbox: How to reach me: <img src="https://user-images.githubusercontent.com/109172537/209095400-8f9c465d-914b-4303-919e-4f449469b223.png" width="20"> _londo.
 
 ---
 
