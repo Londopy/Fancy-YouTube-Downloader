@@ -5,10 +5,25 @@ This Python code creates a GUI program that allows users to search and download 
 
 ## Getting Started!
 
+### Installation
+###### It's too easy
+
+1. Download the .zip from @Releases
+
+2. Un-Zip that ting
+
+3. Run the installer
+
+4. Enjoy the program!
+
+<!-- 
+
 ### Get an API Key
 #### Go to 'https://developers.google.com/youtube/v3' and get your api key. 
 #### Copy & Paste the key into 'API_KEY' - line 142
 ### 📔 Note the key is already in the code in the exe provided @'Releases'
+
+-->
 
 ---
 
