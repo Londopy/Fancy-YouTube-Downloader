@@ -36,7 +36,7 @@ This Python code creates a GUI program that allows users to search and download 
 
 # Status:
 
-## Looking at around 90% complete
+## Looking at around 98% complete
 
 ---
 
